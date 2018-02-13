@@ -1,0 +1,12 @@
+/* full page! */
+html, body, #map {
+    height:100%;
+    width:100%;
+    padding:0px;
+    margin:0px;
+} 
+
+/* tweak leaflet locate control style */
+.leaflet-control-locate a {
+    padding: 0 !important;
+}

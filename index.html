@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .max-height img {
+        max-height: 500px;
+      }
+      a {
+          color: black !important;
+      }
+      .float-right {
+        float: right;
+      }
+      iframe {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+      }
+      .huge {
+        font-size: 155px;
+        margin-top: 100px;
+      }
+      .fxos {
+        position: absolute;
+        right: 15px;
+        top: 200px;
+      }
+      table img {
+        max-height: 64px;
+      }
+      th {
+        border-bottom: solid 1px black;
+        border-left: solid 1px black;
+      }
+      th:first-child {
+        border-left: none;
+      }
+      td {
+        padding: 0 50px;
+        font-size: 40px;
+        border-left: solid 1px black;
+      }
+      td:first-child {
+        border-left: none;
+      }
+      .thanks img{
+        max-height: 100px;
+        max-width: 100px;
+        margin: 20px 60px;
+      }
+    </style>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+# DC Bike Finder<br>([share.bikehero.io](https://share.bikehero.io))
+## Daniel Schep<br><i class="fab fa-twitter"></i> schep_<br><i class="fab fa-github"></i> dschep
+
+---
+
+class: center, middle
+
+# .huge[I 💓 🚲]
+# .huge[I 💖 🗺️]
+
+---
+
+# What is it?
+
+.max-height.float-right[<img src="./screenshot.png" style="margin-top:-50px;margin-right:30px;margin-left:20px;">]
+A Progressive Web Application to find any brand of bikeshare (dockless or not)
+in the Washington, DC metro area.
+
+---
+
+# A little history
+
+.max-height[![](./firefox-marketplace.png)]
+.fxos[![](./zte-open.png)]
+
+---
+
+class: center, middle
+
+# .huge[<a href="./demo/" target="_blank"/>✨Demo!✨</a>]
+
+---
+
+class: center, middle
+
+# Architecture
+![](./architecture.svg)
+
+---
+
+# API Report Card
+
+.float-right.thanks[
+💓With Loving Thanks💖
+<br>
+![](./ddot.png)
+<br>
+![](./waba.gif)
+<br>
+![](./kojo.svg)
+]
+
+| Provider      | Initial Grade | Current Grade |
+| ------------- | ------------- |
+| ![](./cabi.png) | A- | A |
+| ![](./jump.png) | A+ | A+ |
+| ![](./spin.png) | F | A |
+| ![](./limebike.png) | D | A |
+| ![](./ofo.png) | D | A? |
+| ![](./mobike.png) | D | D |
+
+---
+
+# Progressive Web App?
+
+.max-height.float-right[![](./install.png)]
+.max-height.float-right[![](./home.png)]
+
+ * Manifest
+ * ServiceWorker
+ * HTTPS
+
+---
+
+class: center, middle
+
+# One more thing...
+
+---
+
+class: center, middle
+
+# .huge[I ❤️ JUMP]
+
+---
+
+class: center, middle
+
+# Introducing JUMPStart! <small>([jumpstart.bikehero.io](https://jumpstart.bikehero.io))</small>
+.max-height[![](./jumpstart1.png)]
+.max-height[![](./jumpstart2.png)]
+
+---
+
+# That's it!
+
+## Me
+ * <i class="fab fa-twitter"></i> schep_
+ * <i class="fab fa-github"></i> dschep
+
+## Project Links
+ * https://share.bikehero.io | https://github.com/dschep/dc-bike-finder
+ * https://jumpstart.bikehero.io | https://github.com/dschep/jumpstart
+
+## APIs
+ * https://twitter.com/DDOTDC/status/960885109141499904
+ * https://github.com/ubahnverleih/WoBike
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
